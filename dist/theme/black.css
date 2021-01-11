@@ -6,18 +6,23 @@
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
+  
+@font-face {
+  font-family: Erelka;
+  src: url(../../font/Storm\ -\ EtelkaLight.otf);
+}
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
   --background-color: #191919;
-  --main-font: Source Sans Pro, Helvetica, sans-serif;
+  --main-font: Erelka;
   --main-font-size: 42px;
   --main-color: #fff;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: Source Sans Pro, Helvetica, sans-serif;
+  --heading-font: Erelka;
   --heading-color: #fff;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
@@ -29,7 +34,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --heading2-size: 1.6em;
   --heading3-size: 1.3em;
   --heading4-size: 1em;
-  --code-font: monospace;
+  --code-font: Erelka;
   --link-color: #42affa;
   --link-color-hover: #8dcffc;
   --selection-background-color: #bee4fd;
@@ -40,7 +45,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   background-color: #191919; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Erelka;
   font-size: 42px;
   font-weight: normal;
   color: #fff; }
@@ -71,7 +76,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Erelka;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -180,13 +185,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
   margin: 20px auto;
   text-align: left;
   font-size: 0.55em;
-  font-family: monospace;
+  font-family: Erelka;
   line-height: 1.2em;
   word-wrap: break-word;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
 
 .reveal code {
-  font-family: monospace;
+  font-family: Erelka;
   text-transform: none; }
 
 .reveal pre code {
