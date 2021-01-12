@@ -80,7 +80,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -246,6 +245,23 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal img {
   margin: 20px 0; }
+
+.reveal i {
+  margin: 0 .25em; }
+
+.fa-rotate--25 {
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  -o-transform: rotate(-25deg);
+  transform: rotate(-25deg); }
+
+.fa-rotate-25 {
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg); }
 
 /*********************************************
  * LINKS
